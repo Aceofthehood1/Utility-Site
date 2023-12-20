@@ -21,13 +21,13 @@ function NavBar() {
       </div>
       <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <div className="flex flex-shrink-0 items-center">
-          <p>Utility Site</p>
+          <p className="text-3xl">Utility Site</p>
         </div>
         <div className="hidden sm:ml-6 sm:block">
           <div className="flex space-x-4">
-            <a href="#" className="bg-orange-600 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
-            <a href="#" className="text-gray-300 hover:bg-orange-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">CSS</a>
-            <a href="#" className="text-gray-300 hover:bg-orange-600 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Tailwind</a>
+            <a href="#" className="bg-orange-600 text-white rounded-md px-3 py-2 text-3xl font-medium" aria-current="page">Home</a>
+            <a href="#" className="text-gray-300 hover:bg-orange-600 hover:text-white rounded-md px-3 py-2 text-3xl font-medium">CSS</a>
+            <a href="#" className="text-gray-300 hover:bg-orange-600 hover:text-white rounded-md px-3 py-2 text-3xl font-medium">Tailwind</a>
           </div>
         </div>
       </div>
