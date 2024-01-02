@@ -16,8 +16,8 @@ function App() {
       <h1 className="text-4xl lg:text-7xl font-bold text-red-500 text-center m-10">
         Welcome to the Utility Site.
       </h1>
-      <p className="text-2xl text-center m-10">You will be able to view components made with CSS and Tailwind ranging from login forms to navigation bars and carousels.
-      Each having an html and  react version. Copy the component you
+      <p className="text-2xl text-center m-10">You will be able to view components made with Tailwind ranging from login forms to navigation bars and carousels.
+      Currently the versions shown will be made in react so you will have to install some packages to access some functionality. Copy the component you
       want to use and paste in your coding environment.</p>
       <div className="flex flex-col justify-center items-center">
       <Tailwind></Tailwind>
