@@ -4,7 +4,7 @@ import RegistrationForm from "./RegistrationForm";
 function Tailwind() {
     return (
       <>
-        <h1 className="text-4xl lg:text-7xl font-bold text-red-500 text-center">
+        <h1 className="text-7xl lg:text-7xl font-bold text-red-500 text-center">
           Tailwind Components
         </h1>
         <h2 className="text-6xl text-center mt-20" id="register">Registration Form</h2>

@@ -1,6 +1,5 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
-import Css from "./components/Css";
 import Tailwind from "./components/Tailwind"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'

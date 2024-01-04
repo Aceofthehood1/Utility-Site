@@ -8,11 +8,11 @@ function NavBar() {
 
   return (
     <>
-      <nav className="bg-gray-800">
-        <div className="flex p-5">
+      <nav className="w-full bg-gray-800">
+        <div className="flex items-center justify-center p-5 w-full">
           <button
             type="button"
-            className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+            className="absolute left-2 inline-flex rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
             aria-controls="mobile-menu"
             aria-expanded="false"
             onClick={toggleNavbar}
@@ -20,7 +20,7 @@ function NavBar() {
             <span className="absolute -inset-0.5"></span>
             <span className="sr-only">Open main menu</span>
           </button>
-          <p className="text-4xl ml-[80px] sm:ml-[490px]">Utility Site</p>
+          <p className="text-4xl">Utility Site</p>
         </div>
 
       {isOpen && (
